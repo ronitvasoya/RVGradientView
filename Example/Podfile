@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RVGradientView_Example' do
+  pod 'RVGradientView', :path => '../'
+
+  target 'RVGradientView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
