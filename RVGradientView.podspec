@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This is some super GradientView that was made by Ronit Vasoya'
                        DESC
 
   s.homepage         = 'https://github.com/ronitvasoya/RVGradientView'
@@ -28,9 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ronitvasoya/RVGradientView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'RVGradientView/Classes/**/*'
+  s.ios.deployment_target = '10.0'
+  
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "10.0"
+  }
   
   # s.resource_bundles = {
   #   'RVGradientView' => ['RVGradientView/Assets/*.png']

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RVGradientView
 
 class ViewController: UIViewController {
 

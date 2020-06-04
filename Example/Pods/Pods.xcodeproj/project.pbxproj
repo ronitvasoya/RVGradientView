@@ -15,7 +15,7 @@
 		763D8F87201218120E7564BA2F535209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		ABC05691684B893FB0C4BF379F14409A /* RVGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FF40455A37EE3EC4CEC43E526C4C54 /* RVGradientView-dummy.m */; };
 		AE6194A0FC92660A3E376331AC4245CB /* Pods-RVGradientView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED60FB1EE65BCB6F8B8E450307F8E93 /* Pods-RVGradientView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E575AFED0377B2B5F91E57BDA726727E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EEE173D32692BB33C8693C3A9EEA32 /* ReplaceMe.swift */; };
+		B0054A03248949220069AD2E /* RVGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0054A02248949210069AD2E /* RVGradientView.swift */; };
 		ED0D10EC1FBBE25A74E8C8BDB3FA2C18 /* Pods-RVGradientView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3EE993AB17EF5C280EC0D01C60131 /* Pods-RVGradientView_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -40,11 +40,10 @@
 		0348407EF0FF04379F6122C9B3BE5E1E /* Pods-RVGradientView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVGradientView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		03BC94129B8F9A1B705CAF1B71F91809 /* Pods-RVGradientView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVGradientView_Example.modulemap"; sourceTree = "<group>"; };
 		0ED60FB1EE65BCB6F8B8E450307F8E93 /* Pods-RVGradientView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVGradientView_Example-umbrella.h"; sourceTree = "<group>"; };
-		0F7416BBCE259A40F3F1CD7838FC44D2 /* RVGradientView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RVGradientView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1E7EAC7A499BA9240D0E6512D830B9E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		23EEE173D32692BB33C8693C3A9EEA32 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RVGradientView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0F7416BBCE259A40F3F1CD7838FC44D2 /* RVGradientView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RVGradientView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E7EAC7A499BA9240D0E6512D830B9E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F4984B1842E75578554D3A63C0C61C1 /* RVGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RVGradientView.framework; path = RVGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4984B1842E75578554D3A63C0C61C1 /* RVGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RVGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4002E1B37C38D62CB6B44F5A470EA8BE /* Pods-RVGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		43B37CE89404B0D838F432309515D048 /* RVGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVGradientView-prefix.pch"; sourceTree = "<group>"; };
 		5B0E4892B2CF4CF150E0ABB6ADD13153 /* Pods-RVGradientView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVGradientView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -58,17 +57,18 @@
 		94D02778F8309630EF37498A7A1B5BAD /* Pods-RVGradientView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVGradientView_Tests.modulemap"; sourceTree = "<group>"; };
 		96FF40455A37EE3EC4CEC43E526C4C54 /* RVGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVGradientView-dummy.m"; sourceTree = "<group>"; };
 		9CE3EE993AB17EF5C280EC0D01C60131 /* Pods-RVGradientView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVGradientView_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0054A02248949210069AD2E /* RVGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVGradientView.swift; sourceTree = "<group>"; };
 		B2D1D5D7B7C791BFFEEA5F73D145ACE6 /* Pods-RVGradientView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVGradientView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4DD45E64CE49CBC67AD8D43E9040088 /* RVGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVGradientView.xcconfig; sourceTree = "<group>"; };
 		BF235CA54F090DEA1046D09C4D418CC3 /* Pods-RVGradientView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVGradientView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D04548660D1D1202FA818313EAFC416D /* Pods-RVGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D8235775E11BAD744F7BF441F43AA338 /* Pods_RVGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RVGradientView_Tests.framework; path = "Pods-RVGradientView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D85154433F949F2B3FE6CF9789F64617 /* Pods_RVGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RVGradientView_Example.framework; path = "Pods-RVGradientView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8235775E11BAD744F7BF441F43AA338 /* Pods_RVGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85154433F949F2B3FE6CF9789F64617 /* Pods_RVGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBB063FD9DA9EAC3F4F89EE234330DB /* Pods-RVGradientView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVGradientView_Example-Info.plist"; sourceTree = "<group>"; };
 		DF172E445298A6B53C9103A7A22B3C90 /* Pods-RVGradientView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RVGradientView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E219D5B7B92DB92125048E71D638F4E8 /* Pods-RVGradientView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVGradientView_Tests-dummy.m"; sourceTree = "<group>"; };
-		EEBCDAF51524A8C1B6697BAFE41FDD29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EEBCDAF51524A8C1B6697BAFE41FDD29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +183,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		B0054A01248948B60069AD2E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B0054A02248949210069AD2E /* RVGradientView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,7 +221,7 @@
 		E62EBE191441BF9E8C2FF4FE04F0E9D2 /* RVGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				23EEE173D32692BB33C8693C3A9EEA32 /* ReplaceMe.swift */,
+				B0054A01248948B60069AD2E /* Source */,
 				03763CFECE9873DD18232647D3BE1526 /* Pod */,
 				3951B439E4EE9B80542ACA82235138CF /* Support Files */,
 			);
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6E9FFF7677B337835B5CF2466CC55139 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0054A03248949220069AD2E /* RVGradientView.swift in Sources */,
 				ED0D10EC1FBBE25A74E8C8BDB3FA2C18 /* Pods-RVGradientView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E575AFED0377B2B5F91E57BDA726727E /* ReplaceMe.swift in Sources */,
 				ABC05691684B893FB0C4BF379F14409A /* RVGradientView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,7 +433,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests.modulemap";
@@ -453,7 +466,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests.modulemap";
@@ -487,7 +500,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RVGradientView/RVGradientView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RVGradientView/RVGradientView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RVGradientView/RVGradientView.modulemap";
 				PRODUCT_MODULE_NAME = RVGradientView;
@@ -519,7 +532,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RVGradientView/RVGradientView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RVGradientView/RVGradientView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RVGradientView/RVGradientView.modulemap";
 				PRODUCT_MODULE_NAME = RVGradientView;
@@ -539,6 +552,7 @@
 			baseConfigurationReference = 7124628447D661BA021864A8BC37649C /* Pods-RVGradientView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -550,7 +564,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example.modulemap";
@@ -561,6 +575,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -616,13 +631,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -679,7 +693,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -697,6 +711,7 @@
 			baseConfigurationReference = 4002E1B37C38D62CB6B44F5A470EA8BE /* Pods-RVGradientView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -708,7 +723,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example.modulemap";
@@ -719,6 +734,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
