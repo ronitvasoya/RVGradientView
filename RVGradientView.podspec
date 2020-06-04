@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RVGradientView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RVGradientView.'
+  s.summary          = 'This is an amazing GradientView. you make easily gradient view and easily modify your gradient view'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
