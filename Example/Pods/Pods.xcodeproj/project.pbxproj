@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B9E2161A7800F716A7ADDC0B8F69AB /* Pods-RVGradientView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0348407EF0FF04379F6122C9B3BE5E1E /* Pods-RVGradientView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15A0330BA2D49D21A14B02E0509D8A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		49A893A3A93CE6A25308978A1AB00A59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		62B3FA2CD9E99D0AB8984CCF58CCBAB6 /* RVGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74515E402E780254BE672932152D766E /* RVGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2E03019F3F4C9D64B02E0BCFE65FAC /* Pods-RVGradientView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E219D5B7B92DB92125048E71D638F4E8 /* Pods-RVGradientView_Tests-dummy.m */; };
+		763D8F87201218120E7564BA2F535209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ABC05691684B893FB0C4BF379F14409A /* RVGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FF40455A37EE3EC4CEC43E526C4C54 /* RVGradientView-dummy.m */; };
+		AE6194A0FC92660A3E376331AC4245CB /* Pods-RVGradientView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED60FB1EE65BCB6F8B8E450307F8E93 /* Pods-RVGradientView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E575AFED0377B2B5F91E57BDA726727E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EEE173D32692BB33C8693C3A9EEA32 /* ReplaceMe.swift */; };
+		ED0D10EC1FBBE25A74E8C8BDB3FA2C18 /* Pods-RVGradientView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3EE993AB17EF5C280EC0D01C60131 /* Pods-RVGradientView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C34134265168CE934F0158FBE6CCB56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD189FEF79B4D8E1951B7F3D3BCF8610;
+			remoteInfo = RVGradientView;
+		};
+		C8A73D6C6CCAB938FE907027740F33F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9FFF7677B337835B5CF2466CC55139;
+			remoteInfo = "Pods-RVGradientView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0348407EF0FF04379F6122C9B3BE5E1E /* Pods-RVGradientView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVGradientView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		03BC94129B8F9A1B705CAF1B71F91809 /* Pods-RVGradientView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVGradientView_Example.modulemap"; sourceTree = "<group>"; };
+		0ED60FB1EE65BCB6F8B8E450307F8E93 /* Pods-RVGradientView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVGradientView_Example-umbrella.h"; sourceTree = "<group>"; };
+		0F7416BBCE259A40F3F1CD7838FC44D2 /* RVGradientView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RVGradientView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E7EAC7A499BA9240D0E6512D830B9E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		23EEE173D32692BB33C8693C3A9EEA32 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RVGradientView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F4984B1842E75578554D3A63C0C61C1 /* RVGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RVGradientView.framework; path = RVGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4002E1B37C38D62CB6B44F5A470EA8BE /* Pods-RVGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		43B37CE89404B0D838F432309515D048 /* RVGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVGradientView-prefix.pch"; sourceTree = "<group>"; };
+		5B0E4892B2CF4CF150E0ABB6ADD13153 /* Pods-RVGradientView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVGradientView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D3A08C8FF038CF491C090FB8CD6F1BD /* Pods-RVGradientView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVGradientView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7124628447D661BA021864A8BC37649C /* Pods-RVGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		74515E402E780254BE672932152D766E /* RVGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVGradientView-umbrella.h"; sourceTree = "<group>"; };
+		89ECB7481058186A8555075FF492979D /* Pods-RVGradientView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVGradientView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91C4907A98A08B84306737FF8AA61290 /* RVGradientView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RVGradientView-Info.plist"; sourceTree = "<group>"; };
+		9304CC0E40C70DD6A831E8020FC582BE /* Pods-RVGradientView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVGradientView_Tests-Info.plist"; sourceTree = "<group>"; };
+		94515AB21B0F4ABE8C9CEDCCF033CF0D /* RVGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RVGradientView.modulemap; sourceTree = "<group>"; };
+		94D02778F8309630EF37498A7A1B5BAD /* Pods-RVGradientView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVGradientView_Tests.modulemap"; sourceTree = "<group>"; };
+		96FF40455A37EE3EC4CEC43E526C4C54 /* RVGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVGradientView-dummy.m"; sourceTree = "<group>"; };
+		9CE3EE993AB17EF5C280EC0D01C60131 /* Pods-RVGradientView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVGradientView_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2D1D5D7B7C791BFFEEA5F73D145ACE6 /* Pods-RVGradientView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVGradientView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4DD45E64CE49CBC67AD8D43E9040088 /* RVGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVGradientView.xcconfig; sourceTree = "<group>"; };
+		BF235CA54F090DEA1046D09C4D418CC3 /* Pods-RVGradientView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVGradientView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D04548660D1D1202FA818313EAFC416D /* Pods-RVGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D8235775E11BAD744F7BF441F43AA338 /* Pods_RVGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RVGradientView_Tests.framework; path = "Pods-RVGradientView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85154433F949F2B3FE6CF9789F64617 /* Pods_RVGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RVGradientView_Example.framework; path = "Pods-RVGradientView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBB063FD9DA9EAC3F4F89EE234330DB /* Pods-RVGradientView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVGradientView_Example-Info.plist"; sourceTree = "<group>"; };
+		DF172E445298A6B53C9103A7A22B3C90 /* Pods-RVGradientView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RVGradientView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E219D5B7B92DB92125048E71D638F4E8 /* Pods-RVGradientView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVGradientView_Tests-dummy.m"; sourceTree = "<group>"; };
+		EEBCDAF51524A8C1B6697BAFE41FDD29 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220EF83B865B81AC90A701629EC06519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A0330BA2D49D21A14B02E0509D8A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D40924E91D8AC55D969659EAC371E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A893A3A93CE6A25308978A1AB00A59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20FEBB36B1CA1D06676413F7EBEA689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763D8F87201218120E7564BA2F535209 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03763CFECE9873DD18232647D3BE1526 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1E7EAC7A499BA9240D0E6512D830B9E1 /* LICENSE */,
+				EEBCDAF51524A8C1B6697BAFE41FDD29 /* README.md */,
+				0F7416BBCE259A40F3F1CD7838FC44D2 /* RVGradientView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		19B033F86330B61F768C1C8D6E0DB769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85154433F949F2B3FE6CF9789F64617 /* Pods_RVGradientView_Example.framework */,
+				D8235775E11BAD744F7BF441F43AA338 /* Pods_RVGradientView_Tests.framework */,
+				3F4984B1842E75578554D3A63C0C61C1 /* RVGradientView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3951B439E4EE9B80542ACA82235138CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94515AB21B0F4ABE8C9CEDCCF033CF0D /* RVGradientView.modulemap */,
+				B4DD45E64CE49CBC67AD8D43E9040088 /* RVGradientView.xcconfig */,
+				96FF40455A37EE3EC4CEC43E526C4C54 /* RVGradientView-dummy.m */,
+				91C4907A98A08B84306737FF8AA61290 /* RVGradientView-Info.plist */,
+				43B37CE89404B0D838F432309515D048 /* RVGradientView-prefix.pch */,
+				74515E402E780254BE672932152D766E /* RVGradientView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RVGradientView";
+			sourceTree = "<group>";
+		};
+		49C863FE277427FE0F83532279376572 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85F11E4053DA58FCE0F978E3F417FB4F /* Pods-RVGradientView_Example */,
+				5FD509258F30FD3CC180020565BC91F3 /* Pods-RVGradientView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FD509258F30FD3CC180020565BC91F3 /* Pods-RVGradientView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94D02778F8309630EF37498A7A1B5BAD /* Pods-RVGradientView_Tests.modulemap */,
+				B2D1D5D7B7C791BFFEEA5F73D145ACE6 /* Pods-RVGradientView_Tests-acknowledgements.markdown */,
+				89ECB7481058186A8555075FF492979D /* Pods-RVGradientView_Tests-acknowledgements.plist */,
+				E219D5B7B92DB92125048E71D638F4E8 /* Pods-RVGradientView_Tests-dummy.m */,
+				9304CC0E40C70DD6A831E8020FC582BE /* Pods-RVGradientView_Tests-Info.plist */,
+				0348407EF0FF04379F6122C9B3BE5E1E /* Pods-RVGradientView_Tests-umbrella.h */,
+				5D3A08C8FF038CF491C090FB8CD6F1BD /* Pods-RVGradientView_Tests.debug.xcconfig */,
+				D04548660D1D1202FA818313EAFC416D /* Pods-RVGradientView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RVGradientView_Tests";
+			path = "Target Support Files/Pods-RVGradientView_Tests";
+			sourceTree = "<group>";
+		};
+		85F11E4053DA58FCE0F978E3F417FB4F /* Pods-RVGradientView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				03BC94129B8F9A1B705CAF1B71F91809 /* Pods-RVGradientView_Example.modulemap */,
+				BF235CA54F090DEA1046D09C4D418CC3 /* Pods-RVGradientView_Example-acknowledgements.markdown */,
+				5B0E4892B2CF4CF150E0ABB6ADD13153 /* Pods-RVGradientView_Example-acknowledgements.plist */,
+				9CE3EE993AB17EF5C280EC0D01C60131 /* Pods-RVGradientView_Example-dummy.m */,
+				DF172E445298A6B53C9103A7A22B3C90 /* Pods-RVGradientView_Example-frameworks.sh */,
+				DDBB063FD9DA9EAC3F4F89EE234330DB /* Pods-RVGradientView_Example-Info.plist */,
+				0ED60FB1EE65BCB6F8B8E450307F8E93 /* Pods-RVGradientView_Example-umbrella.h */,
+				4002E1B37C38D62CB6B44F5A470EA8BE /* Pods-RVGradientView_Example.debug.xcconfig */,
+				7124628447D661BA021864A8BC37649C /* Pods-RVGradientView_Example.release.xcconfig */,
+			);
+			name = "Pods-RVGradientView_Example";
+			path = "Target Support Files/Pods-RVGradientView_Example";
+			sourceTree = "<group>";
+		};
+		AF51F59CFA45CD901779B57DD1C1CF4C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E62EBE191441BF9E8C2FF4FE04F0E9D2 /* RVGradientView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AF51F59CFA45CD901779B57DD1C1CF4C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				19B033F86330B61F768C1C8D6E0DB769 /* Products */,
+				49C863FE277427FE0F83532279376572 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E62EBE191441BF9E8C2FF4FE04F0E9D2 /* RVGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				23EEE173D32692BB33C8693C3A9EEA32 /* ReplaceMe.swift */,
+				03763CFECE9873DD18232647D3BE1526 /* Pod */,
+				3951B439E4EE9B80542ACA82235138CF /* Support Files */,
+			);
+			name = RVGradientView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29D0CD0F7B792CC24878F1905BDD7EDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6194A0FC92660A3E376331AC4245CB /* Pods-RVGradientView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC28899E4C514E67E1171061BDA52E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B3FA2CD9E99D0AB8984CCF58CCBAB6 /* RVGradientView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BC974EE6AD96CAB448264A2A1F9CD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B9E2161A7800F716A7ADDC0B8F69AB /* Pods-RVGradientView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E9FFF7677B337835B5CF2466CC55139 /* Pods-RVGradientView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FE9137C35F65D68670DAE682DEB417 /* Build configuration list for PBXNativeTarget "Pods-RVGradientView_Example" */;
+			buildPhases = (
+				29D0CD0F7B792CC24878F1905BDD7EDD /* Headers */,
+				8B404DECA8CCB1FE7BE956BAD36C2971 /* Sources */,
+				220EF83B865B81AC90A701629EC06519 /* Frameworks */,
+				29C23692E82E95E321B52D15E48160A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A749525DC8DCFC35BD9808E5F8046D /* PBXTargetDependency */,
+			);
+			name = "Pods-RVGradientView_Example";
+			productName = "Pods-RVGradientView_Example";
+			productReference = D85154433F949F2B3FE6CF9789F64617 /* Pods_RVGradientView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9575B91ADD0773864B36E89DEB6E864F /* Pods-RVGradientView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FD4E3D001863F40B5361E81E043AE0 /* Build configuration list for PBXNativeTarget "Pods-RVGradientView_Tests" */;
+			buildPhases = (
+				69BC974EE6AD96CAB448264A2A1F9CD5 /* Headers */,
+				7D78132A056CFAB53DEFEE91CDE6A599 /* Sources */,
+				A20FEBB36B1CA1D06676413F7EBEA689 /* Frameworks */,
+				7D47DBAF6B6DEBE7D5EB4F1337D3C007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0A9038E7E063CADFA98AF85459B724 /* PBXTargetDependency */,
+			);
+			name = "Pods-RVGradientView_Tests";
+			productName = "Pods-RVGradientView_Tests";
+			productReference = D8235775E11BAD744F7BF441F43AA338 /* Pods_RVGradientView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD189FEF79B4D8E1951B7F3D3BCF8610 /* RVGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DFA4A4D14DDC967372F68B304D4561 /* Build configuration list for PBXNativeTarget "RVGradientView" */;
+			buildPhases = (
+				4CC28899E4C514E67E1171061BDA52E2 /* Headers */,
+				B9634417DBD874909584E8E484659AE3 /* Sources */,
+				67D40924E91D8AC55D969659EAC371E6 /* Frameworks */,
+				932913AD5EB046FD491D69FADD35465E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVGradientView;
+			productName = RVGradientView;
+			productReference = 3F4984B1842E75578554D3A63C0C61C1 /* RVGradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 19B033F86330B61F768C1C8D6E0DB769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E9FFF7677B337835B5CF2466CC55139 /* Pods-RVGradientView_Example */,
+				9575B91ADD0773864B36E89DEB6E864F /* Pods-RVGradientView_Tests */,
+				BD189FEF79B4D8E1951B7F3D3BCF8610 /* RVGradientView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29C23692E82E95E321B52D15E48160A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D47DBAF6B6DEBE7D5EB4F1337D3C007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932913AD5EB046FD491D69FADD35465E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D78132A056CFAB53DEFEE91CDE6A599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2E03019F3F4C9D64B02E0BCFE65FAC /* Pods-RVGradientView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B404DECA8CCB1FE7BE956BAD36C2971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D10EC1FBBE25A74E8C8BDB3FA2C18 /* Pods-RVGradientView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9634417DBD874909584E8E484659AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E575AFED0377B2B5F91E57BDA726727E /* ReplaceMe.swift in Sources */,
+				ABC05691684B893FB0C4BF379F14409A /* RVGradientView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48A749525DC8DCFC35BD9808E5F8046D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RVGradientView;
+			target = BD189FEF79B4D8E1951B7F3D3BCF8610 /* RVGradientView */;
+			targetProxy = C34134265168CE934F0158FBE6CCB56D /* PBXContainerItemProxy */;
+		};
+		8C0A9038E7E063CADFA98AF85459B724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RVGradientView_Example";
+			target = 6E9FFF7677B337835B5CF2466CC55139 /* Pods-RVGradientView_Example */;
+			targetProxy = C8A73D6C6CCAB938FE907027740F33F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F76B5CB39FC3D9D89D4374C72D4A12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3A08C8FF038CF491C090FB8CD6F1BD /* Pods-RVGradientView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D4794B32FC96B18F5B45A752575C5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04548660D1D1202FA818313EAFC416D /* Pods-RVGradientView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		725308882DCAE2DE36F035017FC4583F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DD45E64CE49CBC67AD8D43E9040088 /* RVGradientView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVGradientView/RVGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVGradientView/RVGradientView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RVGradientView/RVGradientView.modulemap";
+				PRODUCT_MODULE_NAME = RVGradientView;
+				PRODUCT_NAME = RVGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		831EECA7B3A74D6A43D6B7B6AD46BEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DD45E64CE49CBC67AD8D43E9040088 /* RVGradientView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVGradientView/RVGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVGradientView/RVGradientView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RVGradientView/RVGradientView.modulemap";
+				PRODUCT_MODULE_NAME = RVGradientView;
+				PRODUCT_NAME = RVGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC953E71538B4F5D445314135FCE77F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7124628447D661BA021864A8BC37649C /* Pods-RVGradientView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C74FBA893C1E5FC8A6543745B41B536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4002E1B37C38D62CB6B44F5A470EA8BE /* Pods-RVGradientView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45DFA4A4D14DDC967372F68B304D4561 /* Build configuration list for PBXNativeTarget "RVGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831EECA7B3A74D6A43D6B7B6AD46BEA7 /* Debug */,
+				725308882DCAE2DE36F035017FC4583F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FE9137C35F65D68670DAE682DEB417 /* Build configuration list for PBXNativeTarget "Pods-RVGradientView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74FBA893C1E5FC8A6543745B41B536F /* Debug */,
+				AC953E71538B4F5D445314135FCE77F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FD4E3D001863F40B5361E81E043AE0 /* Build configuration list for PBXNativeTarget "Pods-RVGradientView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F76B5CB39FC3D9D89D4374C72D4A12C /* Debug */,
+				6D4794B32FC96B18F5B45A752575C5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

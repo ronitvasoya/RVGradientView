@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0E5714D214656AF2C4C3D285 /* Pods-RVGradientView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVGradientView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		146CD12188D89D8E9E75062D /* RVGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RVGradientView.podspec; path = ../RVGradientView.podspec; sourceTree = "<group>"; };
-		20A05EDAD690C7A8CD3FFCA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		146CD12188D89D8E9E75062D /* RVGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RVGradientView.podspec; path = ../RVGradientView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20A05EDAD690C7A8CD3FFCA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		25AA29F31703E4D6FE882A80 /* Pods_RVGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RVGradientView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RVGradientView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		70963BA6EC3F236856C260FA /* Pods-RVGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVGradientView_Example.debug.xcconfig"; path = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		729FCF8560B1212006C83638 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		729FCF8560B1212006C83638 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		81F5BA0A56683A10B6631977 /* Pods-RVGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVGradientView_Tests.release.xcconfig"; path = "Target Support Files/Pods-RVGradientView_Tests/Pods-RVGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A498A433660C1F2FCB25B652 /* Pods_RVGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E4D6DEA0F2BCC40E01B691 /* Pods-RVGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVGradientView_Example.release.xcconfig"; path = "Target Support Files/Pods-RVGradientView_Example/Pods-RVGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				0E5714D214656AF2C4C3D285 /* Pods-RVGradientView_Tests.debug.xcconfig */,
 				81F5BA0A56683A10B6631977 /* Pods-RVGradientView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

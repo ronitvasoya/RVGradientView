@@ -1,0 +1,22 @@
+{
+  "name": "RVGradientView",
+  "version": "0.1.0",
+  "summary": "A short description of RVGradientView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ronitvasoya/RVGradientView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ronitvasoya": "vasoyaronit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ronitvasoya/RVGradientView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RVGradientView/Classes/**/*"
+}

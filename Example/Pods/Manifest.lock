@@ -1,0 +1,16 @@
+PODS:
+  - RVGradientView (0.1.0)
+
+DEPENDENCIES:
+  - RVGradientView (from `../`)
+
+EXTERNAL SOURCES:
+  RVGradientView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RVGradientView: f060778135f6ac64f2612ce38207396e2cee43be
+
+PODFILE CHECKSUM: e6606ef73f39949711cfeacd4742e0f45d280e4a
+
+COCOAPODS: 1.8.4

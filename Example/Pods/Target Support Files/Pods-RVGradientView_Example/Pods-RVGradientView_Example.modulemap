@@ -1,0 +1,6 @@
+framework module Pods_RVGradientView_Example {
+  umbrella header "Pods-RVGradientView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
