@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RVGradientView'
   s.version          = '0.1.0'
-  s.summary          = 'This is an amazing GradientView. you make easily gradient view and easily modify your gradient view'
+  s.summary          = 'This is some super GradientView that was made by Ronit Vasoya'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'This is some super GradientView that was made by Ronit Vasoya'
+'This is an amazing GradientView. you make easily gradient view and easily modify your gradient view'
                        DESC
 
   s.homepage         = 'https://github.com/ronitvasoya/RVGradientView'
